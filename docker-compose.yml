@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  gdpr-user-registry:
+    build: .
+    volumes:
+      - ./test_users.db:/app/test_users.db
+    container_name: gdpr-user-registry
