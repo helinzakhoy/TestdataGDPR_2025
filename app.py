@@ -1,4 +1,7 @@
 import sqlite3
+import os
+
+DB_PATH = os.environ.get("DB_PATH", "/data/test_users.db")
 
 DB_NAME = "test_users.db"
 
